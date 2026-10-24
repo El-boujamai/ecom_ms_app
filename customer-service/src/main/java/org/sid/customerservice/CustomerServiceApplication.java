@@ -21,15 +21,11 @@ public class CustomerServiceApplication {
     CommandLineRunner start(CustomerRepository customerRepository) {
         return args -> {
             customerRepository.save(Customer.builder()
-                    .name("Mohamed").email("med@gmail.com").build());
+                    .name("Mohamed").email("nourdenne@gmail.com").build());
             customerRepository.save(Customer.builder()
-                    .name("Imane").email("imane@gmail.com").build());
+                    .name("Imane").email("ouardia@gmail.com").build());
             customerRepository.save(Customer.builder()
-                    .name("Yassine").email("yassine@gmail.com").build());
-
-
-
-
+                    .name("Yassine").email("malak@gmail.com").build());
 
 
         };
